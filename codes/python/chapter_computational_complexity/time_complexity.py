@@ -67,7 +67,7 @@ def exponential(n: int) -> int:
             count += 1
         base *= 2
     # count = 1 + 2 + 4 + 8 + .. + 2^(n-1) = 2^n - 1
-    return count
+    return base - 1
 
 
 def exp_recur(n: int) -> int:
